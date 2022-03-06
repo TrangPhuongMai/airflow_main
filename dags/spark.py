@@ -65,5 +65,4 @@ t3 = BashOperator(
     dag=dag,
 )
 
-t1
-t3
+t1 >> t3
