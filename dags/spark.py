@@ -65,4 +65,6 @@ t3 = BashOperator(
     dag=dag,
 )
 
+# user must change the path in bash command to the correct path of spark-submit and project jar
+
 t1 >> t3
